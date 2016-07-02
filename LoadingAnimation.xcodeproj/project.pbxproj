@@ -15,7 +15,7 @@
 		5BD794911C21AC4100C2230D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD7948F1C21AC4100C2230D /* LaunchScreen.storyboard */; };
 		5BD7949C1C21AC4100C2230D /* LoadingAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD7949B1C21AC4100C2230D /* LoadingAnimationTests.m */; };
 		5BD794A71C21AC4200C2230D /* LoadingAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD794A61C21AC4200C2230D /* LoadingAnimationUITests.m */; };
-		5BD794B61C21AC6E00C2230D /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD794B51C21AC6E00C2230D /* LoadingView.m */; };
+		5BFF198C1C7B350000B879C9 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF198B1C7B350000B879C9 /* LoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		5BD794A21C21AC4200C2230D /* LoadingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD794A61C21AC4200C2230D /* LoadingAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingAnimationUITests.m; sourceTree = "<group>"; };
 		5BD794A81C21AC4200C2230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BD794B41C21AC6E00C2230D /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
-		5BD794B51C21AC6E00C2230D /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		5BFF198A1C7B350000B879C9 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		5BFF198B1C7B350000B879C9 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,7 @@
 				5BD794851C21AC4100C2230D /* AppDelegate.m */,
 				5BD794871C21AC4100C2230D /* ViewController.h */,
 				5BD794881C21AC4100C2230D /* ViewController.m */,
-				5BD794B41C21AC6E00C2230D /* LoadingView.h */,
-				5BD794B51C21AC6E00C2230D /* LoadingView.m */,
+				5BFF19891C7B350000B879C9 /* LoadingView */,
 				5BD7948A1C21AC4100C2230D /* Main.storyboard */,
 				5BD7948D1C21AC4100C2230D /* Assets.xcassets */,
 				5BD7948F1C21AC4100C2230D /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				5BD794A81C21AC4200C2230D /* Info.plist */,
 			);
 			path = LoadingAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5BFF19891C7B350000B879C9 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				5BFF198A1C7B350000B879C9 /* LoadingView.h */,
+				5BFF198B1C7B350000B879C9 /* LoadingView.m */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD794891C21AC4100C2230D /* ViewController.m in Sources */,
-				5BD794B61C21AC6E00C2230D /* LoadingView.m in Sources */,
+				5BFF198C1C7B350000B879C9 /* LoadingView.m in Sources */,
 				5BD794861C21AC4100C2230D /* AppDelegate.m in Sources */,
 				5BD794831C21AC4100C2230D /* main.m in Sources */,
 			);

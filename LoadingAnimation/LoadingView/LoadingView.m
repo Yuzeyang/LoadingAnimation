@@ -123,7 +123,7 @@ static int lineViewHeight = 30;
 }
 
 - (void)checkAnimation {
-    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    
     
     CGRect rectInRound = CGRectInset(self.bounds, loadingViewWidth*(1-1/sqrt(2.0))/2, loadingViewWidth*(1-1/sqrt(2.0))/2);
     UIBezierPath *path = [UIBezierPath bezierPath];
@@ -131,6 +131,7 @@ static int lineViewHeight = 30;
     [path addLineToPoint:CGPointMake(rectInRound.origin.x + rectInRound.size.width/3, rectInRound.origin.y + rectInRound.size.height*9/10)];
     [path addLineToPoint:CGPointMake(rectInRound.origin.x + rectInRound.size.width*8/10, rectInRound.origin.y + rectInRound.size.height*2/10)];
     
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = path.CGPath;
     shapeLayer.lineWidth = 10;
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
